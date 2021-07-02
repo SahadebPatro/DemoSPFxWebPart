@@ -1,0 +1,100 @@
+.item {
+  padding: 3% 2%; 
+  display: flex;
+  border: 1px solid gainsboro;
+  }
+
+  .ItemImage {
+    width: 10%;
+    margin-right: 7%;
+}
+
+.ItemImage img {
+    max-width: -webkit-fill-available;
+    background-size: cover;    
+}
+
+.grid-block {
+  margin-top: auto;
+  margin-bottom: auto;
+  } 
+
+  .description {
+    width: 27%;  
+  }
+
+  .add2CartBtn { 
+   min-width: 15%;   
+  }
+
+ .greenTick {  
+    width: 12%;
+    text-align: center;
+  }
+   
+  .description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+  }
+   
+  .description span:first-child {
+    margin-bottom: 5px;
+  }
+
+  .description span:last-child {
+    font-weight: 300;
+    margin-top: 8px;
+    color: #86939E;
+  }
+
+  .quantity {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 15%;
+  }
+
+  .total-price {
+    width: 20%;       
+  }
+
+  button[class*=btn] {  
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+   
+  button:focus,
+  input:focus {
+    outline:0;
+  }
+ 
+  @media (max-width: 800px) {
+    .shopping-cart {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    .item {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .ItemImage img {
+      width: 50%;
+    }
+    .ItemImage,
+    .quantity,
+    .description {
+      width: 100%;
+      text-align: center;
+      margin: 6px 0;
+    }
+  }
+
+  .my-1 {
+    margin-left: 3px;
+    margin-right: 3px;
+  }

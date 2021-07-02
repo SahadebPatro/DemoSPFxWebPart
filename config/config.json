@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ms-shop-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/msShop/MsShopWebPart.js",
+          "manifest": "./src/webparts/msShop/MsShopWebPart.manifest.json"
+        }
+      ]
+    },
+    "simple-shop-cart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/simpleShopCart/SimpleShopCartWebPart.js",
+          "manifest": "./src/webparts/simpleShopCart/SimpleShopCartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MsShopWebPartStrings": "lib/webparts/msShop/loc/{locale}.js",
+    "SimpleShopCartWebPartStrings": "lib/webparts/simpleShopCart/loc/{locale}.js"
+  }
+}
