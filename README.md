@@ -2,9 +2,7 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
-
-[picture of the solution in action, if possible]
+This is a simple shopping cart application developed with SPFx and React Js.
 
 ## Used SharePoint Framework Version
 
@@ -19,13 +17,11 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+> Basic understanding of
+HTML, CSS, and JavaScript
+ES6 features
+How to use npm
 
-## Solution
-
-Solution|Author(s)
---------|---------
-folder name | Author details (name, company, twitter alias with link)
 
 ## Version history
 
@@ -52,17 +48,14 @@ This software (or sample code) is not supported under any Microsoft standard sup
 
 ## Features
 
-Description of the extension that expands upon high-level summary above.
+This webpart illustrates the following concepts:
 
-This extension illustrates the following concepts:
+Sample shopping cart application developed with following concepts.
 
-- topic 1
-- topic 2
-- topic 3
+- SharePoint Framework (SPFx)
+- React JS
+- TypeScript
 
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
 
 ## References
 
